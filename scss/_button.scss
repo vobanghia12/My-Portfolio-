@@ -1,0 +1,11 @@
+//inheritance
+%btn {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 10px 30px;
+  margin-top: 25px;
+}
+.btn-contact {
+  @extend %btn;
+  background-color: $primary-color;
+}
